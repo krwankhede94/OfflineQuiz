@@ -1,0 +1,44 @@
+﻿<UserControl x:Class="OfflineQuiz.Views.UserDetailsPage"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="clr-namespace:OfflineQuiz.Views"
+             xmlns:viewModels="clr-namespace:OfflineQuiz.ViewModels"
+             mc:Ignorable="d"
+             d:DesignHeight="450" d:DesignWidth="800" >
+
+	<UserControl.DataContext>
+		<viewModels:UserDetailsPageViewModel />
+	</UserControl.DataContext>
+
+	<Border BorderBrush="Gray" BorderThickness="2" Width="500" VerticalAlignment="Center" HorizontalAlignment="Center">
+		<Grid HorizontalAlignment="Left" Width="500">
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition Width="1*" />
+				<ColumnDefinition Width="4*" />
+				<ColumnDefinition Width="1*" />
+			</Grid.ColumnDefinitions>
+			<TextBlock Height="23" Margin="10,10,0,0" Text="Welcome to Offline Quiz application" VerticalAlignment="Top"
+			           FontSize="17" Grid.ColumnSpan="2" />
+			<TextBlock Grid.Column="0" Height="30" Margin="20,50,0,0" VerticalAlignment="Top" FontSize="12" FontStyle="Italic"
+			           Grid.ColumnSpan="2">
+				Please provide following details.
+			</TextBlock>
+			<TextBlock Grid.Column="0" Height="23" Margin="25,100,0,0" Text="User name:" VerticalAlignment="Top" />
+			<TextBox Grid.Column="1" Height="23" Margin="20,100,0,0" VerticalAlignment="Top"
+			         Text="{Binding UserName}" />
+
+			<TextBlock Grid.Column="0" Height="23" Margin="25,150,0,0" Text="Email:" VerticalAlignment="Top" />
+			<TextBox Grid.Column="1" Height="23" Margin="20,150,0,0" VerticalAlignment="Top" Text="{Binding Email}" />
+			<TextBlock Grid.Column="1" Grid.ColumnSpan="2" Height="23" HorizontalAlignment="Right" VerticalAlignment="Bottom"
+			           Width="200" Margin="0,250,0,00" Foreground="Crimson"
+			           Text="{Binding ErrorText, Mode=TwoWay}" />
+
+			<Button Grid.Column="0" Grid.ColumnSpan="3" Width="100" Height="23" VerticalAlignment="Top" Margin="20,200,0,10"
+			        Command="{Binding SubmitUserDetailsCommand}">
+				Next
+			</Button>
+		</Grid>
+	</Border>
+</UserControl>

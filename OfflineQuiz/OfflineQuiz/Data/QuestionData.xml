@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Questions>
+  <Question>
+    <QuestionToAsk>Who is the current Prime Minister of India?</QuestionToAsk>
+    <OptionA>A) Mr. Narendra Modi</OptionA>
+    <OptionB>B) Mr. Rahul Gandhi</OptionB>
+    <OptionC>C) Mr. Arvind Kejrival</OptionC>
+    <OptionD>D) Mr. Yogi Adityanath</OptionD>
+    <CorrectAnswer>A</CorrectAnswer>
+  </Question>
+
+  <Question>
+    <QuestionToAsk>Which of the following is the capital of India?</QuestionToAsk>
+    <OptionA>A) Bangalore</OptionA>
+    <OptionB>B) Mumbai</OptionB>
+    <OptionC>C) New Delhi</OptionC>
+    <OptionD>D) Pune</OptionD>
+    <CorrectAnswer>C</CorrectAnswer>
+  </Question>
+
+  <Question>
+    <QuestionToAsk>What is the currency of India?</QuestionToAsk>
+    <OptionA>A) Dollar</OptionA>
+    <OptionB>B) Rupee</OptionB>
+    <OptionC>C) Dinar</OptionC>
+    <OptionD>D) Pound</OptionD>
+    <CorrectAnswer>B</CorrectAnswer>
+  </Question>
+
+  <Question>
+    <QuestionToAsk>Which of the following is NOT neighboring country of India?</QuestionToAsk>
+    <OptionA>A) Pakistan</OptionA>
+    <OptionB>B) Bangladesh</OptionB>
+    <OptionC>C) Nepal</OptionC>
+    <OptionD>D) Canada</OptionD>
+    <CorrectAnswer>D</CorrectAnswer>
+  </Question>
+
+  <Question>
+    <QuestionToAsk>Which of the following is NOT an amimal?</QuestionToAsk>
+    <OptionA>A) Elephant</OptionA>
+    <OptionB>B) Tiger</OptionB>
+    <OptionC>C) Eagle</OptionC>
+    <OptionD>D) Dog</OptionD>
+    <CorrectAnswer>C</CorrectAnswer>
+  </Question>
+
+  <Question>
+    <QuestionToAsk>What is the name of tallest mountain in world?</QuestionToAsk>
+    <OptionA>A) Mount Everest</OptionA>
+    <OptionB>B) K2</OptionB>
+    <OptionC>C) Mount Fuji</OptionC>
+    <OptionD>D) Mount Kilimanjaro</OptionD>
+    <CorrectAnswer>A</CorrectAnswer>
+  </Question>
+
+  <Question>
+  <QuestionToAsk>Which of the following is a leap year?</QuestionToAsk>
+  <OptionA>A) 2001</OptionA>
+  <OptionB>B) 2002</OptionB>
+  <OptionC>C) 2003</OptionC>
+  <OptionD>D) 2004</OptionD>
+  <CorrectAnswer>D</CorrectAnswer>
+  </Question>
+
+  <Question>
+    <QuestionToAsk>Choose odd month out of the following?</QuestionToAsk>
+    <OptionA>A) January</OptionA>
+    <OptionB>B) March</OptionB>
+    <OptionC>C) April</OptionC>
+    <OptionD>D) May</OptionD>
+    <CorrectAnswer>C</CorrectAnswer>
+  </Question>
+
+  <Question>
+    <QuestionToAsk>What is the name of first man who stepped foot on the Moon?</QuestionToAsk>
+    <OptionA>A) Neil Armstrong</OptionA>
+    <OptionB>B) Buzz Aldrin</OptionB>
+    <OptionC>C) Yuri Gagarin</OptionC>
+    <OptionD>D) Kalpana Chawla</OptionD>
+    <CorrectAnswer>A</CorrectAnswer>
+  </Question>
+
+  <Question>
+    <QuestionToAsk>Who discovered the concept of Gravity?</QuestionToAsk>
+    <OptionA>A) Sir Issac Newton</OptionA>
+    <OptionB>B) Albert Einstein</OptionB>
+    <OptionC>C) Dr. Homi Bhabha</OptionC>
+    <OptionD>D) Ramanujan</OptionD>
+    <CorrectAnswer>A</CorrectAnswer>
+  </Question>
+
+  <Question>
+    <QuestionToAsk>How many stripes are there on Indian national flag?</QuestionToAsk>
+    <OptionA>A) 4</OptionA>
+    <OptionB>B) 3</OptionB>
+    <OptionC>C) 5</OptionC>
+    <OptionD>D) 6</OptionD>
+    <CorrectAnswer>B</CorrectAnswer>
+  </Question>
+</Questions>
